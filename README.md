@@ -8,13 +8,13 @@ The News Sentiment Analysis Dashboard is a Python program that leverages web scr
 
 ## Related Libraries Installations (if not git clone)
 
-pip install pandas
-pip install selenium
-pip install beautifulsoup
-pip install webdriver_manager
-pip install vaderSentiment
-pip install dash
-pip install dash-mantine-components
+### pip install pandas
+### pip install selenium
+### pip install beautifulsoup
+### pip install webdriver_manager
+### pip install vaderSentiment
+### pip install dash
+### pip install dash-mantine-components
 
 ## Usage
 1. Run the web scraping file:
