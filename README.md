@@ -18,15 +18,15 @@ The News Sentiment Analysis Dashboard is a Python program that leverages web scr
 
 ## Usage
 1. Run the web scraping file:
-    python newsScrapper.py
+    ** python newsScrapper.py **
 2. The program will generate a raw CSV file with desired news:
 ![original news data](image-2.png)
 3. Run the sentiment analyse file:
-    python sentimentAnaylse.py
+   ** python sentimentAnaylse.py **
 4. The program will run sentimental analysis and generate a CSV file with sentimental scores:
 ![sentimental analysis](image-3.png)
 5. Run the Dashboard:
-    python dashBoard.py
+   ** python dashBoard.py **
 6. Open a web browser and navigate to http://127.0.0.1:8050/
 7. Explore the interactive DataTable and pie chart to analyse sentiment results.
 
