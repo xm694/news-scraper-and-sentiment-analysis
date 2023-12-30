@@ -2,7 +2,9 @@
 
 ## Overview
 
-The News Sentiment Analysis Dashboard is a Python program that leverages web scraping, sentiment analysis, and interactive visualization to analyze news articles related to 'Voice to Parliament' during the time period from September 1, 2023, to October 14, 2023. The program uses Beautiful Soup and Selenium for web scraping, VADER Sentiment Analysis for sentiment analysis, and Dash with Plotly for creating an interactive dashboard.
+The News Sentiment Analysis Dashboard is a Python program that leverages web scraping, sentiment analysis, and interactive visualization to analyze news articles related to 'Voice to Parliament' during the time period from September 1, 2023, to October 14, 2023. 
+
+The program uses Beautiful Soup and Selenium for web scraping, VADER Sentiment Analysis for sentiment analysis, and Dash with Plotly for creating an interactive dashboard.
 ![dashboard overview](image-1.png)
 
 
