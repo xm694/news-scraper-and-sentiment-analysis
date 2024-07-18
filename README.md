@@ -25,7 +25,7 @@ The program uses Beautiful Soup and Selenium for web scraping, VADER Sentiment A
 ![original news data](image-2.png)
 3. Run the sentiment analyse file:
    ** python sentimentAnaylse.py **
-4. The program will run sentimental analysis and generate a CSV file with sentimental scores:
+4. The program will load raw data CSV file to VADER and run sentimental analysis and output a CSV file with sentimental scores:
 ![sentimental analysis](image-3.png)
 5. Run the Dashboard:
    ** python dashBoard.py **
