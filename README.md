@@ -21,7 +21,7 @@ The program uses Beautiful Soup and Selenium for web scraping, VADER Sentiment A
 ## Usage
 1. Run the web scraping file:
     ** python newsScrapper.py **
-2. The program will generate a raw CSV file with desired news:
+2. The program will scrawl google news to extra data and generate a raw CSV file:
 ![original news data](image-2.png)
 3. Run the sentiment analyse file:
    ** python sentimentAnaylse.py **
