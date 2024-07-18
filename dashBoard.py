@@ -15,10 +15,16 @@ import dash_mantine_components as dmc
 #incorporate data
 df = pd.read_csv('sentiment_analysis_news.csv')
 
-count = df['sentiment'].value_counts()
-positive_count = int(count.iloc[0])
-negative_count = int(count.iloc[1])
-neutral_count = int(count.iloc[2])
+#count = df['sentiment'].value_counts()
+#positive_count = int(count.iloc[0])
+#negative_count = int(count.iloc[1])
+#neutral_count = int(count.iloc[2])
+
+#a more robust method to count sentiment
+count = df['sentiment']
+positive_count = int(count.get('Positive', 0))
+negative_count = int(count.get('Negative', 0))
+neutral_count = int(count.get('Neutral', 0))
 
 #initialize the app
 external_stylesheets = [dmc.theme.DEFAULT_COLORS]
